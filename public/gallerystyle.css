@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Bold.ttf);
+}
+body{
+    background: linear-gradient(228.48deg,#f2ec3b 20.3%,#80f9c0 96.91%);
+    font-family: Raleway;
+    margin: 0%;
+    height: 90vw;
+}
+    #cart2{
+    position: relative;
+    left: 41%;
+    top: -1vw;
+    height: 2vw;
+    cursor: pointer;
+}
+#started2{
+    cursor: pointer;
+    border-radius: 0.6vw;
+    background-color: gold;
+    font-size: 1vw;
+    color: #ffff;
+    position: relative;
+    top: -3.3vw;
+    left: 80%;
+    padding: 0.5% 1%;
+    font-weight: lighter;
+    background: linear-gradient(180deg
+    ,#f7de03 -67.82%,#ffa620);
+    border: none;
+}
+#started2:hover{
+    background: linear-gradient(180deg,
+    #ffe603 -1.82%,#f90);
+}
+#navigation{
+    height: 10.2%;
+    position: fixed;
+    margin-top: -3.4%;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.200);
+}
+#navimg{
+    position: relative;
+    top: 0.5vw;
+    left: 2%;
+    cursor: pointer;
+    height: 2.2vw;
+    width: auto;
+    margin: 1.3vw 1.5%;
+}
+#Home{
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 17%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Gallery{
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 21%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Artists{
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 25%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#FAQ{
+    color: #212529;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -1.3vw;
+    left: 29%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Home:hover{
+    color: gold;
+}
+#Gallery:hover{
+    color: gold;
+}
+#Artists:hover{
+    color: gold;
+}
+#FAQ:hover{
+    color: gold;
+}
+#cart{
+    position: relative;
+    top: -53.1vw;
+    left: 168%;
+    height: 2vw;
+    cursor: pointer;
+}
+#gallertext1{
+    font-size: 5vw;
+}
+#gallertext2{
+    font-size: 3vw;
+    margin-top: -4%;
+    margin-bottom: 3%;
+    font-size: 1.6vw;
+}
+#gallerytext{
+    position: relative;
+    top: 5vw;
+    margin-left: 9.6%;
+    margin-right: 12%;
+}
+#halfcircel1{
+    height: 25vw;
+    margin-top: -7.5%;
+}
+#halfcircel2{
+    height: 35vw;
+    margin-left: 88.4%;
+    margin-top: 5%;
+    position: relative;
+    top: -10%;
+    z-index: -2;
+}
+.images{
+    width: 12vw;
+    height: 11vw;
+    border-radius: 1vw;
+    object-fit: cover;
+    margin: 0.7%;
+    margin-top: 0.5%;
+}
+#imagebox{
+    width: 87%;
+    margin-top: -50%;
+    margin-left: 9%;
+}
+#footer{
+    height: 15vw;
+    width: 96%;
+    position: relative;
+    margin-top: 12.2%;
+    padding: 2%;
+    color: #7c7d7f;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #242729;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+}
+#footerbox1{
+    position: relative;
+    left: 8%;
+    top: 35%;
+}
+#foterlogo{
+    height: 2.8vw;
+    margin-top: 2%;
+    position: relative;
+    right: 1%;
+    padding-left: 1%;
+}
+#foterlogo:hover{
+    cursor: pointer;
+}
+#foterlogo1{
+    height: 2.5vw;
+}
+#footerlinks1{
+    text-align: center;
+    color: gold;
+    text-decoration: none;
+    display: block;
+    font-size: 2vw;
+}
+#footerbox2{
+    position: relative;
+    right: 7%;
+}
+#footerlinks{
+    position: relative;
+    left: 47%;
+    padding-top: 1%;
+    font-size: 1.3vw;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+#footerlinks:hover{
+    color: gold;
+}
+#footerbox1{
+    position: relative;
+    margin-top: -7%;
+}
+#emailbox2{
+    padding: 1.2% 1%;
+    border: none;
+    font-size: 1vw;
+    font-weight: 100%;
+    width: 22%;
+    border-radius: 0.4vw;
+    background-color: #3a3d3e;
+    background-image: url(images/paper-planes-1081560_1280.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 2vw;
+}
+#footer3{
+    position: relative;
+    left: 65%;
+    top: -55%;
+    text-align: left;
+}
+#copyrighttext{
+    font-size: 1vw;
+    position: relative;
+    left: 8%;
+    top: 0vw;
+    display: inline;
+}
+#copyrighttext:hover{
+    cursor: pointer;
+    color: #fff;
+}
+#masterimgs{
+    height: 1%;
+    position: relative;
+    left: 18.5%;
+    top: 2%;
+}
+#footer4{
+    position: relative;
+    top: -27%;
+    right: 1%;
+}
+#serviceterm{
+    position: relative;
+    left: 88%;
+    top: -2vw;
+    font-size: 1vw;
+}
+#serviceterm:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#serviceterm1{
+    font-size: 1vw;
+    position: relative;
+    left: 65%;
+    margin-top: -3.8vw;
+}
+#serviceterm1:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#footer3text2{
+    color: #fff;
+}
+#footer3text2:hover{
+    color: gold;
+    cursor: pointer;
+}
